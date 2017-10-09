@@ -28,10 +28,8 @@ public class Paquet {
     */
     public ArrayList creationPaquet()
     {
-        int min = 2;
-        int max = 15;   
-        int nombre = 0;
-        
+        int min = 2, max = 15, nombre = 0;
+ 
         for(int i = 0; i < 52; i++)
         {
             Carte carte = new Carte();
@@ -45,11 +43,8 @@ public class Paquet {
             }
             else 
                 i --;
-        }
-        
-           
+        }     
         return list;
-   
     }
     
  
