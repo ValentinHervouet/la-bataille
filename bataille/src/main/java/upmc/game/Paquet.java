@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class Paquet {
     
-    private ArrayList<Carte> list =  new ArrayList<Carte>();;
+    private ArrayList<Carte> list =  new ArrayList<Carte>();
     
     
     public Paquet()
